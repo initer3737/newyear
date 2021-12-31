@@ -1,0 +1,60 @@
+  /* icons */
+  .icon-instagram{
+    color: palevioletred;
+}
+.icon-telegram{
+    color: rgba(45, 123, 240, 0.616);
+    background: rgba(241, 244, 245, 0.822);
+}
+/* utils */
+.filter{
+    background: rgba(250, 240, 240, 0.25);
+}
+/* a body and more */
+a,.nav-link{
+    text-decoration: none;
+    color: white;
+    transition: all 2s;
+}
+a:hover{
+    color: blueviolet;
+}
+*{
+    color: whitesmoke;
+}
+body{
+    background: url(../img/new-years-eve-1283521_1920.jpg);
+    font-size: larger;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.25vw;
+    width: 100%;
+    margin: 0.25vw;
+}
+.footer-left ,.footer-middle,.footer-right{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1vw;
+    gap: 1.25vw;
+}
+.footer-left ,.footer-middle,.footer-right{
+    margin-left: 5vw;
+}
+/* animate */
+.animate-fade{
+    animation-name: fade;
+    animation-duration: 1.9s;
+}
+@keyframes fade {
+    from{
+        margin-right: 20rem;
+        opacity: 0;
+    }to{
+        margin-right: 0;
+    }
+}
